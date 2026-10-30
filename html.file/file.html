@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dress Collection App</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Login Page -->
+<div id="loginPage" class="page active">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Username" />
+  <input type="password" id="password" placeholder="Password" />
+  <button onclick="login()">Login</button>
+  <p id="loginError" class="error"></p>
+</div>
+
+<!-- App Logo Screen -->
+<div id="logoPage" class="page">
+  <img src="https://i.imgur.com/2JO91U2.png" alt="App Logo" class="logo" />
+  <h2>Welcome to Dressify</h2>
+</div>
+
+<!-- Dress Collection Page -->
+<div id="collectionPage" class="page">
+  <h2>New Dress Collection</h2>
+  <div class="dress-grid">
+    <div class="dress-card">
+      <img src="https://i.imgur.com/5QF6EoO.jpg" alt="Dress 1" />
+      <p>Elegant Evening Gown</p>
+    </div>
+    <div class="dress-card">
+      <img src="https://i.imgur.com/xX3TQpN.jpg" alt="Dress 2" />
+      <p>Summer Casual Dress</p>
+    </div>
+    <div class="dress-card">
+      <img src="https://i.imgur.com/zG4tp7j.jpg" alt="Dress 3" />
+      <p>Floral Print Dress</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
